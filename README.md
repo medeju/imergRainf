@@ -20,6 +20,7 @@ Place all daily files (365 for standard years, 366 for leap years) inside their 
 
 Example Structure:
 Plaintext
+
 D:/IMERGL07/
 ├── 2020/
 │   ├── 3B-DAY-L.MS.MRG.3IMERG.20200101-S000000-E235959.V07B.nc4.nc4
@@ -29,6 +30,7 @@ D:/IMERGL07/
 │   └── ... (365 files)
 └── 2022/
     └── ...
+    
 3. Script Workflow
 The provided Python script executes the following stages:
 
