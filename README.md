@@ -1,4 +1,6 @@
-README: IMERG Rainfall Processing Pipeline
+README:
+IMERG Rainfall Processing Pipeline
+
 This repository provides a automated Python workflow to process, aggregate, and extract time-series data from NASA IMERG (GPM) satellite precipitation products.
 
 1. Data Acquisition
@@ -30,20 +32,25 @@ D:/IMERGL07/
 3. Script Workflow
 The provided Python script executes the following stages:
 
-Part I: Aggregation * Loads yearly folders using xarray.open_mfdataset.
+Part I: 
+
+Aggregation: Loads yearly folders using xarray.open_mfdataset.
 Concatenates multiple years into a single 3D time-series (time, lat, lon).
 Calculates Monthly Totals, Annual Totals, and Long-term Climatology.
 
-Part II: Point Extraction
-Reads a CSV list of station coordinates (Lat/Lon).
+Part II: 
+
+Point Extraction:Reads a CSV list of station coordinates (Lat/Lon).
 Uses "Nearest Neighbor" selection to extract pixel values at specific ground locations.
 
-Part III: Export
-Pivots data into a "Wide Format" matrix (Dates as rows, Stations as columns).
+Part III: 
+
+Export:Pivots data into a "Wide Format" matrix (Dates as rows, Stations as columns).
 Saves outputs to daily_data.csv and monthly_data.csv.
 
-Part IV: Visualization
-Generates a time-series line plot for a sample station.
+Part IV:  
+
+Visualization: Generates a time-series line plot for a sample station.
 Produces a 2D spatial map of the mean annual rainfall.
 
 4. Quick Start / Testing
