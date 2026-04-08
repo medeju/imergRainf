@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 LocationName,Lon,Lat
 Addis Ababa ,38.79871,8.981081
 Alemaya,42.03785,9.415133
@@ -19,3 +20,26 @@ Metehara ,39.921,8.865
 Metema,36.4139,12.7746
 Nedjo,35.488056,9.517778
 Sirinka,39.614281,11.750998
+=======
+LocationName,Lon,Lat
+Addis Ababa ,38.79871,8.981081
+Alemaya,42.03785,9.415133
+Ambo ,37.83967,8.986
+Arba Minch,37.561389,6.062222
+Awassa,38.483056,7.065
+Bahir Dar ,37.416667,11.6
+Debre Berhan,39.513056,9.670278
+Debre Markos,37.7392,10.3257
+Debre Tabor,37.9954,11.8666
+Gambela,34.54,8.25
+Gondar ,37.4319,12.52115
+Gore,35.54983,8.157283
+Humera,36.52208,13.84
+Jinka,36.559722,5.779722
+Mankush,35.25,11.272
+Mehal Meda ,39.66025,10.3146
+Metehara ,39.921,8.865
+Metema,36.4139,12.7746
+Nedjo,35.488056,9.517778
+Sirinka,39.614281,11.750998
+>>>>>>> e52312e (Linking local files to repository)
